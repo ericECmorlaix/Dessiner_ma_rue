@@ -35,6 +35,7 @@ def portes(x,y):
 
     
     # Tests
-affiche(rue)
-for i in range(21) :
-    portes(0 + i * 40,rue.height)
+if __name__ == '__main__':
+    affiche(rue)
+    for i in range(21) :
+        portes(0 + i * 40,rue.height)
