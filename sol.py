@@ -14,3 +14,8 @@ def sol():
     rue.line_width = 3
     trait(0,y_sol,760,y_sol)
     rue.line_width = 1
+
+# Tests
+if __name__ == '__main__':
+    affiche(rue)
+    sol()
